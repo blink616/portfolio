@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /private/  # Disallow crawling of pages under /private/
+Disallow: /restricted-page.html  # Disallow crawling of a specific page
+Disallow: /images/  # Disallow crawling of the entire /images/ directory
+Allow: /images/public/  # Allow crawling of the /images/public/ directory
